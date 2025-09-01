@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    int i = 2;
+
+    // แสดงเลขคู่ด้วย while loop
+    while (i <= 10) {
+        printf("%d ", i);
+        i += 2;
+    }
+
+    printf("\nEnd of loop\n");
+    return 0;
+}
